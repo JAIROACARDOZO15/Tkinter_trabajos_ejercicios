@@ -41,7 +41,7 @@ ventana_principal.resizable(0,0)
 ventana_principal.config(bg="gray")
 
 # icono de la ventana
-ventana_principal.iconbitmap("sum_ico.ico")
+#ventana_principal.iconbitmap("sum_ico.ico")
 
 # -------------------------------
 # VARIABLES DE CONTROL
@@ -63,9 +63,9 @@ titulo.config(bg="#64b446", fg="black", font=("Arial, 12"))
 titulo.place(x=200, y=10)
 
 # imagen
-logo_uis = tk.PhotoImage(file="uis.png")
-label_logo = tk.Label(frame_entrada, image=logo_uis)
-label_logo.place(x=10, y=40)
+#logo_uis = tk.PhotoImage(file="uis.png")
+#label_logo = tk.Label(frame_entrada, image=logo_uis)
+#label_logo.place(x=10, y=40)
 
 #etiqueta x
 label_x = tk.Label(frame_entrada , text= "X =")
